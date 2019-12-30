@@ -1,4 +1,11 @@
 @media (max-width: 492px){
+	body{
+		width:100%;
+		overflow-x: hidden;
+		height:100%;
+		margin:0;
+		padding: 0;
+	}
 	.navbar-light .navbar-nav .nav-link{
 		
 		display: flex;
