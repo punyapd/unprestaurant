@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Galada&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+html{
+    width:100%;
+    scroll-behavior: smooth;
+
+    overflow-x:hidden;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+/* navigation bar */
+.clr{
+	clear: both;
+}
+.bg-light{
+	background: rgba(12,12,13,0.78) !important;
+	
+}
+
+ .navbar-light .navbar-brand{
+ 	color:#fff!important;
+
+ }
+
+.navbar-nav{
+	
+	
+}
+.navbar-light .navbar-nav .nav-link {
+	padding: 11px 19px;
+	text-transform: uppercase;
+	color: #fff !important;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	transition:0.8s;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+ color:#ffa500 !important;
+ border-bottom:3px solid orange;
+}
+
+.white{
+	background:#fff;
+	padding-top: 10px;
+}
+/* owl-carousel */
+
+.carousel-item {
+    background:rgb(0,0,0,0.5)!important;
+
+    
+}
+.carousel-caption{
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    color:#fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: rgba(8, 3, 3, 0.8);;
+    border-radius: 20%;
+    height:100px;
+}
+
+
+
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+    margin-top: 68px;
+}
+.tab-content>.active {
+    display: block;
+    background: white;
+    min-height: 600px;
+    box-shadow: 2px -1px 5px 0px #adacac;
+    background-color: #f9f0f0;
+}
+.nav-pills .nav-link {
+    border-radius: .25rem;
+    font-size: 30px;
+    color: #ffa500;
+}
+.menu_motto {
+    padding-top:14em;
+    text-align: center;
+    color: white;
+
+}
+.menu_motto h3 span{
+  color: #ffa500;
+
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 25px;
+    
+}
+.btn:not(:disabled):not(.disabled):hover{
+    background: #ffa500;
+    color: white;
+    border-radius: 16px;
+}
+/*about*/
+#about{
+	
+}
+.about-title{
+	display:flex;
+	justify-content:center;
+	font-family:'Open Sans',sans-serif;
+	text-transform: uppercase;
+	font-weight:600;
+	font-size:16px;
+	padding-top: 5px;
+
+}
+.about-title::before{
+	content: url(../images/hd.png);
+    margin: 14px;
+    color: green;
+    vertical-align: text-bottom;
+}
+.about-title::after{
+	content: url(../images/hd.png);
+    margin: 14px;
+    
+    vertical-align: text-bottom;
+}
+
+.fline ,.sline{
+     align-content: center;
+
+}
+.sline{
+	margin-left:50px;
+}
+.bg1{
+	margin-top:20px;
+	
+}
+.bg1-head{
+	display: flex;
+    justify-content: center;
+    padding: top:40px;
+    font-family: 'Galada', cursive;
+    font-size: 25px;
+    margin-top:40px;
+}
+}
+blockquote{
+	display: flex;
+	justify-content: center;
+	color:#444;
+    text-align: justify;
+	line-height:1.6;
+	
+}
+.bg2{
+	margin-top:100px;
+	height:auto;
+}
+.his-text{
+    margin:auto;
+}
+/*feature*/
+#feature{
+ margin-top:40px;
+}
+.feature_top{
+	display:flex
+ justify-content:center;
+}
+.feature-title{
+	display:flex;
+	justify-content:center;
+	font-family:'Open Sans',sans-serif;
+	text-transform: uppercase;
+	font-weight:600;
+	font-size:16px;
+	padding-top: 5px;
+	margin-bottom:20px;
+
+}
+.feature-title::before{
+ content: url(../images/hd.png);
+    margin: 18px;
+    color: green;
+    vertical-align: text-bottom;
+
+}
+.feature-title::after{
+ content: url(../images/hd.png);
+    margin: 14px;
+    
+    vertical-align: text-bottom;
+}
+.feature-topic h2{
+  font-size:18px;
+  font-family:'Open Sans',sans-serif;
+  font-weight: 700;
+  color:#ffa500;
+  text-transform: uppercase;
+}
+.feature-topic p{
+	text-align: justify;
+}
+/*chef*/
+.chef-title{
+	display:flex;
+	justify-content:center;
+	font-family:'Open Sans',sans-serif;
+	text-transform: uppercase;
+	font-weight:600;
+	font-size:16px;
+	padding-top: 5px;
+	margin-bottom:20px;
+}
+.chef-title::before{
+ content: url(../images/hd.png);
+    margin: 18px;
+    color: green;
+    vertical-align: text-bottom;
+
+}
+.chef-title::after{
+ content: url(../images/hd.png);
+    margin: 14px;
+    
+    vertical-align: text-bottom;
+}
+.our-team-wrapper{
+    margin: 7px;
+   
+    
+    overflow: hidden;
+    position: relative;
+    
+    
+    
+}
+.img{
+    padding:0;
+}
+.thumbnail{
+    height: 300px;
+    width: 300px; 
+    
+}
+.content{
+    position: absolute;
+    bottom: -85px;
+    background: #eee;
+    width: 100%;
+    transition: all 1s ease; 
+}
+.our-team-wrapper:hover .content{
+    position: absolute;
+    bottom: -11px;
+    background: #eee;
+    width: 100%;
+    transition: all 1s ease; 
+}
+
+.content .our-team-name{
+    padding: 10px;
+    color:#009688;
+    text-align: center;
+    font-size: 1.8rem;
+    
+}
+.content .our-team-name .small{
+    display: block;
+    color: #9e9e9e;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+ul.our-team-contact{
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+ul.our-team-contact li{
+    margin:0 15px;
+    height: 60px;
+    width: 60px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff ;
+}
+
+ul.our-team-contact li.facebook{
+background:#3b5998;
+}
+
+
+ul.our-team-contact li.twitter{
+background: #1da1f2;
+}
+
+ul.our-team-contact li.google{
+background:#dd4b39;
+}
+#book .row{
+    margin-top: 120px;
+}
+.heading-section{
+    margin-bottom: -100px;
+}
+.chef_padd{
+	padding:10px;
+}
+
+/*information*/
+.section {
+    /* Needed for children to be absolutely positioned relative to the parent. */
+    position: relative;
+    /* The height of the container. Must be set, but it doesn't really matter what the value is. */
+    height: 70vh;
+
+    /* For text formatting. */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 5px #000;
+}
+
+.parallax::after {
+    /* Display and position the pseudo-element */
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    /* Move the pseudo-element back away from the camera,
+   * then scale it back up to fill the viewport.
+   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+    transform: translateZ(-1px) scale(1.5);
+    /* Force the background image to fill the whole element. */
+    background-size: 100%;
+    /* Keep the image from overlapping sibling elements. */
+    z-index: -1;
+}
+
+
+/* The styling for the static div. */
+.static {
+    background: rgb(0, 15, 24);
+
+
+}
+
+/* Sets the actual background images to adorable kitties. This part is crucial. */
+.bg4::after {
+    background-image: url('../images/tereliye.jpg');
+    background-size: cover;
+}
+
+.bg5::after {
+    background-image: url('../images/tereliye.jpg');
+}
+
+.h1,
+h1 {
+    font-size: 36px;
+    padding-left: 95px;
+    padding-top: -18px;
+    color: #57aaf3;
+}
+.wrapper {
+    /* The height needs to be set to a fixed value for the effect to work.
+   * 100vh is the full height of the viewport. */
+    height: 70vh;
+    /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
+    overflow-x: hidden;
+    /* Enable scrolling on the page. */
+    overflow-y: auto;
+    /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
+    perspective: 2px;
+}
+
+
+/*chef*/
+
+
+/*footer*/
+footer{
+    padding: 100px;
+    background: black;
+    color: white;
+    margin-top:15px;
+}
+/*reservation*/
+.modal-header{
+	background: lightblue;
+
+}
+.modal-title{
+	margin-left:125px;
+}
+.modal-content{
+	background: skyblue;
+}
+
+.size
+{
+	width:300px;
+	
+}
+.comment{
+	width:300px;
+	height:150px;
+	
+}
+.reserve
+{
+	margin-left: 50px;
+	padding:10px;
+}
+input::placeholder{
+	font-size: 14px;
+	padding:10px;
+	color:#444;
+}
+.modal-dialog{
+	margin:auto auto;
+    overflow-y: auto;
+    height: 500px;
+}
+.modal-body{
+	margin:auto;
+    
+    
+}
+/*menu*/
+#menu{
+    margin-top: 50px;
+}
+.menu-img{
+    width:100%;
+    height:400px;
+    
+}
+.menu-list{
+    width: 85%;
+    height:400px;
+   overflow-y:auto;
+    
+}
+.menu-title{
+    color:#444;
+    display: flex;
+    justify-content: center;
+    margin-top:45px;
+    border-bottom: 3px solid #ffa500;
+}
+
+.food-name hr{
+    margin-top: 5px;
+}
+.food-desc{
+    padding-top: -3px;
+    text-align: justify;
+}
+.menu-mar{
+	margin-top: 30px;
+}
+.card-deck {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 36px;
+    /* background: white; */
+}
+.owl-carousel.owl-loaded {
+    display: block;
+    margin-top: 43px;
+}
+.card-title{
+    display:flex;
+    justify-content: center;
+}
