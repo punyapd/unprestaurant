@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Galada&display=swap');
 body{
 	font-family: 'Open Sans', sans-serif;
+    position: relative;
 }
 html{
     width:100%;
@@ -54,8 +55,12 @@ html{
 }
 
 .white{
-	background:#fff;
-	padding-top: 10px;
+	height: 100px;
+  background-color: rgba(0,0,0, 0.8);
+  position: fixed;
+  top: 200;
+  width: 100%;
+  transition: all 0.5s;
 }
 /* owl-carousel */
 
@@ -408,55 +413,146 @@ h1 {
 /*chef*/
 
 
-/*footer*/
-footer{
-    padding: 100px;
-    background: black;
-    color: white;
-    margin-top:15px;
-}
-/*reservation*/
 .modal-header{
-	background: lightblue;
+    background: lightblue;
 
 }
 .modal-title{
-	margin-left:125px;
+    margin-left:125px;
 }
 .modal-content{
-	background: skyblue;
+    background: #101010ba;
+    overflow: auto;
+}
+label{
+    color:white;
 }
 
-.size
-{
-	width:300px;
-	
+#exampleModal #reservation-form .size {
+    width: 300px;
+    margin: 0px 0px;
+    padding: 10px 20px;
 }
-.comment{
-	width:300px;
-	height:150px;
-	
+#exampleModal #reservation-form .comment{
+    width:300px;
+    height:150px;
+    
 }
 .reserve
 {
-	margin-left: 50px;
-	padding:10px;
+    margin-left: 50px;
+    padding:10px;
 }
-input::placeholder{
-	font-size: 14px;
-	padding:10px;
-	color:#444;
+#exampleModal #reservation-form input::placeholder{
+    font-size: 14px;
+    padding:10px;
+    color:#444;
 }
 .modal-dialog{
-	margin:auto auto;
-    overflow-y: auto;
-    height: 500px;
+    
+   
 }
 .modal-body{
-	margin:auto;
     
+    margin:auto;
     
 }
+/*contact*/
+#contact{
+    width:100%;
+    overflow-x: hidden;
+}
+.contact-title{
+    display:flex;
+    justify-content:center;
+    font-family:'Open Sans',sans-serif;
+    text-transform: uppercase;
+    font-weight:600;
+    font-size:16px;
+    padding-top: 5px;
+    margin-bottom:25px;
+}
+.contact-title::before{
+ content: url(../images/hd.png);
+    margin: 18px;
+    color: green;
+    vertical-align: text-bottom;
+
+}
+.contact-title::after{
+ content: url(../images/hd.png);
+    margin: 14px;
+    
+    vertical-align: text-bottom;
+}
+.contact-wrapper{
+    background: #091523;
+    width:100%;
+    padding-bottom: 15px;
+}
+#contact input{
+    margin:25px 50px;
+    width:550px;
+    
+    padding:20px 30px;
+    
+}
+#contact input::placeholder{
+font-size: 20px;
+    font-weight: 500;
+}
+#contact .textarea{
+  width:100%;
+  height:305px;
+  margin-top: 25px;
+  padding:40px;
+  font-size: 20px;
+  font-weight: 600;
+}
+#contact .address{
+    color:#fff;
+}
+footer{
+    padding:50px;
+    background: #091523;
+    color: white;
+    margin-top:15px;
+}
+footer i{
+    margin:20px;
+
+}
+footer i:hover{
+    color:#fff;
+}
+footer p:hover{
+    color:#fff;
+}
+.open{
+    display: flex:
+    justify-content:center;
+    
+}
+.open span{
+    color:#ffa500;
+}
+.social{
+    font-size:32px;
+    color:#ffa500;
+    display:flex;
+    justify-content: center;
+}
+#contact .btn{
+    margin:auto;
+    padding:10px;
+    font-size:14px;
+    
+}
+#conatct iframe{
+   width:350px;
+}
+/*reservation*/
+
 /*menu*/
 #menu{
     margin-top: 50px;
@@ -507,4 +603,29 @@ input::placeholder{
 .card-title{
     display:flex;
     justify-content: center;
+}
+.top{
+    position:fixed;
+    top:85%;
+    right:4%;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background: #ffa500;
+    color:#fff;
+    display: none;
+    z-index: 10;
+    transition: 1s;
+    
+}
+.top:hover{
+    
+    background:#000;
+}
+#top .fa{
+    
+     position: absolute;
+  top: 50%;
+  left: 50%;
+    transform: translate(-50%,-50%);
 }

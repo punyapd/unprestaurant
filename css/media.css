@@ -149,4 +149,23 @@ hr {
 	width:100%;
 }
 
+/*contact*/
+#contact input{
+    margin:25px 25px;
+    width:300px;
+    
+    padding:10px 10px;
+    
+}
+#contact .textarea{
+  width:90%;
+  height:250px;
+  margin: 25px;
+  padding:40px;
+  font-size: 20px;
+  font-weight: 600;
+}
+#contact .map iframe{
+	width:100%;
+}
 }

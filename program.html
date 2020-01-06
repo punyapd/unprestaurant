@@ -53,7 +53,7 @@
         <a class="nav-link" href="program.html">gallery & progrAM</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#footer">CONTACT</a>
+        <a class="nav-link" href="#contact">CONTACT</a>
       </li>
       
       
@@ -65,7 +65,7 @@
 
     
 
-     <h3 class="text-center" style="margin-top: 10px; color: #ffa500;">Gallery</h3>
+     <h3 class="text-center" style="margin-top: 60px; color: #ffa500;">Gallery</h3>
 
     <!-- owl caraousel -->
     
@@ -139,64 +139,60 @@
     </div>
 
     <!-- footer -->
-    <footer>
+     <seciion id="contact">
+      <div class="contact-title "><h2>contact</h2></div>
+      <div class="contact-wrapper container-fluid">
+      <div class="address mt-3 text-center"><p>koteshwor-35 setiopimarga, kathmandu</p></div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <form method="GET" >
+
+            <input type="text" name="name" placeholder="Name"  required><br>
+            <input type=" email" name="email" placeholder="Email" required><br>
+            <input type="texta" name="subject" placeholder="Subject">
+          
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <textarea class="textarea"> Message</textarea>
+        </div>
+        <button class="btn btn-primary" >submit</button>
+      </form>
+      </div>
+      </div>
+      <div class="map pt-2">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d906169.8461738193!2d85.24888705!3d27.4777896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1577764225555!5m2!1sen!2snp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <iframe width="600" height="450" src="https://www.youtube.com/embed/7EdpBH81XIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      </div>
+      </div>
+    
+     <footer>
+
         <div  class="container">
-            <div class="row">
-                <div class="col-lg-3">
+            <div class="row social">
+                <div class="col-lg-3 col-md-3 col-sm-12">
                     <i class="fa fa-twitter" aria-hidden="true"></i>
                     <i class="fa fa-instagram" aria-hidden="true"></i>
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                 </div>
-                <div class="col-lg-3"></div>
-                <div class="col-lg-3"></div>
-                <div class="col-lg-3"></div>
+                
               </div>
-            <div class="row">
-                <div class="col-lg-3"><h2>Locations</h2></div>
-                <div class="col-lg-3"></div>
-                <div class="col-lg-3"></div>
-                <div class="col-lg-3"><h2>Hours</h2></div>
-            </div>
+              
+              <div class="open">  <p class="text-center"><span>reservation number:</span>+01 25 854 78521<br>
+                  <span class="text-center">working hours:</span><br> MON- FRI: 08:00 AM - 10:00 PM<br>
+                   SAT - SUN:10:00 AM - 11:00 PM</p></div>
             
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="row">
-                        <div class="col-lg">Brooklyn<br>
-                                   376 Fake Street<br>
-                                    Brooklyn, NY — 11231<br>
-                                    (718) 555-1234
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="row">
-                        <div class="col-lg">Queens<br>
-                            47-33 Fake Street<br>
-                            Long Island City, NY — 11101<br>
-                            (347) 555-1234
-                        </div>
-                        
-
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    Food Truck<br>
-                    25 Fake Street<br>
-                    New York, NY — 10003<br>
-                    (917) 555-1234
-                </div>
-                <div class="col-lg-3">Monday — Thursday<br>
-                            8am — 11pm<br>
-                            Friday — Sunday<br>
-                            11am — 11pm
-                </div>
-            </div>
-        </div>
-        <p>Powered by shikharshoes</p>
+           
+        <p class="text-center mt-3" style="text-transform: uppercase; font-size:16px; color:#ffa500;">© UNP restaurant 2016. All rights reserved.</p>
+      </div>
     </footer>
+  </section>
     <!-- modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-md" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -208,7 +204,7 @@
       <div class="modal-body">
         <div class="row">
            <div class="col-md-12 col-sm-12 col-lg-12">
-        <form name="form" method="GET" onsubmit="return validateForm()">
+        <form name="form" method="GET" id="reservation-form">
          <label>Full Name:</label> <br><input id="name" type="text" name="name" required class="size" placeholder="Your Name here" ><br>
          <Label>Email Address:</Label><br><input type="email" name="email" class="size" placeholder="Your Email here" required><br>
          <label>Contact Number:</label><br><input type="text" name="number" class="size" placeholder="Contact Number" required><br>
@@ -220,7 +216,7 @@
 
           <Label>comment or questions:</Label><br>
           <textarea class="comment"></textarea><br>
-          <button type="submit" class="btn btn-primary" id="submit">RESERVE</button>
+          <button type="submit" class="btn btn-primary" id="submit" style="display: flex; justify-content: center;">RESERVE</button>
       
         </form>
       </div>
@@ -231,6 +227,10 @@
         
     </div>
   </div>
+</div>
+<div class="top" id="top"><a href="#main"><i class="fa fa-angle-up" aria-hidden="true" style="font-size:36px;">
+  
+</i></a>
 </div>
 
 
